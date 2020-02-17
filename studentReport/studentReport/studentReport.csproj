@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48826EE1-F1BB-4ED3-A1C5-A6A92A23CC61}</ProjectGuid>
+    <ProjectGuid>{2E912F3A-4F74-4811-A706-FED5F1610845}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Acme_Welcome</RootNamespace>
-    <AssemblyName>Acme_Welcome</AssemblyName>
+    <RootNamespace>studentReport</RootNamespace>
+    <AssemblyName>studentReport</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acme_Welcome.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
