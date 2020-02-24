@@ -14,8 +14,5 @@ namespace Abstaction
             Console.WriteLine("Name: {0} {1}", firstName, lastName);
         }
 
-        IQuittable n = new IQuittable();
-        n.Quit();
-
     }
 }
