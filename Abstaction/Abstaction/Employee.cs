@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstaction
 {
-    public class Employee : Person, IQuittable
+    public class Employee : Person
     {
 
         public override void SayName()

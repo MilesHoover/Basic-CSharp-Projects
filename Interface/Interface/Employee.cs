@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    interface Interface1
+    public class Employee : IQuittable
     {
+
     }
 }

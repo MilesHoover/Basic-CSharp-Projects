@@ -8,6 +8,9 @@ namespace Interface
 {
     interface IQuittable
     {
-        void Quit();
+        void Quit()
+        {
+            Console.WriteLine("The program will now exit");
+        }
     }
 }
