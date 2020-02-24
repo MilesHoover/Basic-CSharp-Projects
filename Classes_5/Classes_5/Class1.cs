@@ -6,35 +6,31 @@ using System.Threading.Tasks;
 
 namespace Classes_5
 {
-    class Operations
+    public static class Operations
     {
 
-        public void Div(int num)
+        public static void Div(int num)
         {
             int quotient = num / 2;
             Console.WriteLine("{0} / 2 = {1}", num, quotient);
         }
 
-        public void Greeting()
+        public static void Greeting()
         {
             Console.WriteLine("\nHello, World! The method that produced this text took no parameters");
         }
 
-        public int stringOrInt(int numMult)
+        public static int stringOrInt(int numMult)
         {
             int product = numMult * 5;
             return product;
         }
 
-        public string stringOrInt(string name)
+        public static string stringOrInt(string name)
         {
             string greet = "Hello, " + name;
             return greet;
         }
 
-        public static void withoutObj()
-        {
-            Console.WriteLine("Hello");
-        }
     }
 }
