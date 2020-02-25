@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D017F1D6-9448-421B-BE5C-17BABBD265F6}</ProjectGuid>
+    <ProjectGuid>{56D80E19-7CD6-495C-9F31-2682448C20AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Interface</RootNamespace>
     <AssemblyName>Interface</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface1.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="IQuittable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

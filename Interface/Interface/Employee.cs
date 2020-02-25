@@ -8,6 +8,5 @@ namespace Interface
 {
     public class Employee : IQuittable
     {
-
     }
 }

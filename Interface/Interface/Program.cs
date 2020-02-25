@@ -10,7 +10,6 @@ namespace Interface
     {
         static void Main(string[] args)
         {
-            IQuittable myObj = new IQuittable();
         }
     }
 }
